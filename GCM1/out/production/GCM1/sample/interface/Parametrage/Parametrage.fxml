@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="700.0" prefWidth="880.0" style="-fx-background-color: #212121;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <Label layoutX="56.0" layoutY="34.0" text="Parametrage" textFill="#f1f1f1" AnchorPane.leftAnchor="75.0" AnchorPane.topAnchor="50.0">
+            <font>
+                <Font name="Montserrat SemiBold" size="36.0" />
+            </font>
+        </Label>
+      <Button layoutX="98.0" layoutY="160.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: #00B6D3;" text="Allergie" textFill="WHITE">
+         <font>
+            <Font name="Montserrat SemiBold" size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="356.0" layoutY="158.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="230.0" style="-fx-background-color: #3856C5;" text="Malade" textFill="WHITE">
+         <font>
+            <Font name="Montserrat SemiBold" size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="640.0" layoutY="158.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: #55ADD3;" text="Medicament" textFill="WHITE">
+         <font>
+            <Font name="Montserrat SemiBold" size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="98.0" layoutY="302.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: #1B87E4;" text="Dose" textFill="WHITE">
+         <font>
+            <Font name="Montserrat SemiBold" size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="356.0" layoutY="300.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="230.0" style="-fx-background-color: #0371FF;" text="Group Sanguin" textFill="WHITE">
+         <font>
+            <Font name="Montserrat SemiBold" size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="640.0" layoutY="300.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: #00B5D3;" text="Protocole" textFill="WHITE">
+         <font>
+            <Font name="Montserrat SemiBold" size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="98.0" layoutY="440.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="200.0" style="-fx-background-color: #2E32A7;" text="Civilite" textFill="WHITE">
+         <font>
+            <Font name="Montserrat SemiBold" size="24.0" />
+         </font>
+      </Button>
+      <Line endX="148.0" layoutX="176.0" layoutY="109.0" startX="-100.0" stroke="WHITE" strokeWidth="3.0" />
+    </children>
+</AnchorPane>

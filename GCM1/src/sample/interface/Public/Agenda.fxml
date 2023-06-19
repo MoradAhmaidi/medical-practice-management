@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="700.0" prefWidth="880.0" style="-fx-background-color: #212121;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="56.0" layoutY="34.0" text="Agenda" textFill="#f1f1f1" AnchorPane.leftAnchor="75.0" AnchorPane.topAnchor="50.0">
+         <font>
+            <Font name="Montserrat SemiBold" size="36.0" />
+         </font>
+      </Label>
+      <TableView layoutX="379.0" layoutY="139.0" prefHeight="524.0" prefWidth="465.0" AnchorPane.rightAnchor="36.0" AnchorPane.topAnchor="139.0">
+        <columns>
+          <TableColumn prefWidth="69.0" text="N°" />
+          <TableColumn prefWidth="94.0" text="Nom" />
+            <TableColumn prefWidth="88.0" text="Prenom" />
+            <TableColumn prefWidth="113.0" text="Malade" />
+            <TableColumn prefWidth="113.0" text="Action" />
+        </columns>
+      </TableView>
+      <TextField fx:id="txt_cin" layoutX="84.0" layoutY="171.0" prefHeight="35.0" prefWidth="275.0" promptText="Cin" AnchorPane.topAnchor="171.0">
+         <font>
+            <Font name="Montserrat Regular" size="14.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="txt_motif" layoutX="84.0" layoutY="233.0" prefHeight="35.0" prefWidth="275.0" promptText="Motif">
+         <font>
+            <Font name="Montserrat Regular" size="14.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="txt_poid" layoutX="84.0" layoutY="377.0" prefHeight="35.0" prefWidth="85.0" promptText="kg">
+         <font>
+            <Font name="Montserrat Regular" size="14.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="txt_lon" layoutX="179.0" layoutY="377.0" prefHeight="35.0" prefWidth="85.0" promptText="cm">
+         <font>
+            <Font name="Montserrat Regular" size="14.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="txt_temp" layoutX="274.0" layoutY="377.0" prefHeight="35.0" prefWidth="85.0" promptText="c°">
+         <font>
+            <Font name="Montserrat Regular" size="14.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="txt_pa" layoutX="84.0" layoutY="439.0" prefHeight="35.0" prefWidth="127.0" promptText="bar">
+         <font>
+            <Font name="Montserrat Regular" size="14.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="txt_ps" layoutX="232.0" layoutY="439.0" prefHeight="35.0" prefWidth="127.0" promptText="mg/l">
+         <font>
+            <Font name="Montserrat Regular" size="14.0" />
+         </font>
+      </TextField>
+      <ComboBox fx:id="txt_malde" layoutX="84.0" layoutY="497.0" prefHeight="35.0" prefWidth="275.0" promptText="Malade" />
+      <Button fx:id="btn_a" layoutX="221.0" layoutY="559.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="137.0" style="-fx-background-color: #00B5D3;" text="Ajoute" textFill="WHITE">
+         <font>
+            <Font name="Montserrat Regular" size="14.0" />
+         </font>
+      </Button>
+      <ComboBox fx:id="cmb_med" layoutX="84.0" layoutY="291.0" prefHeight="35.0" prefWidth="275.0" promptText="Medecin" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,17 @@
+.btn{
+ 	-fx-background-color:#00B5D3;
+ 	-fx-border-radius:6px;
+}
+.btn:hover{
+ 	-fx-background-color:  #0085BD;
+}
+.btnp{
+ 	-fx-background-color:transparent;
+}
+.btnp:hover{
+ 	-fx-background-color:  #212121;
+ 	-fx-border-radius:20px 0px 0px 20px;
+}
+.active{
+    -fx-background-color:  #212121;
+}
